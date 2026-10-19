@@ -19,7 +19,6 @@ window.SITE = {
     referralInfo: "https://ppg668.cam/register.php?r=BMMTH",
     gameTips: "https://ppg668.cam/register.php?r=BMMTH",
     games: "https://ppg668.cam/register.php?r=BMMTH",
-    telegram: "https://t.me/ROYAL24MY",
   },
 
   // Link that "Invite" / "Copy Link" hand out.

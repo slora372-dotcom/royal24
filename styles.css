@@ -108,6 +108,26 @@ img { display: block; max-width: 100%; height: auto; }
 .seo h2 { font-size: 16px; color: var(--gold); margin: 16px 0 6px; }
 .seo h3 { font-size: 14px; color: #fff; margin: 12px 0 4px; }
 .seo a { color: var(--gold); text-decoration: underline; }
+/* Guide and FAQ pages */
+.guide { margin-top: 14px; }
+.guide .crumbs { font-size: 12px; color: var(--muted); margin-bottom: 8px; }
+.guide .crumbs a { color: var(--muted); text-decoration: none; }
+.seo ol, .seo ul { padding-left: 20px; }
+.seo ul { list-style: disc; }
+.seo li { margin-bottom: 6px; }
+.seo b { color: #fff; }
+.guide-auth { margin: 18px 0 4px; }
+.guide-auth a { text-decoration: none; }
+.guide-auth .join { color: #fff; }
+.guide-auth .login { color: #2a1546; }
+.faq-list { display: grid; gap: 10px; margin: 14px 0; }
+.faq-list details { border: 1px solid var(--line); border-radius: 12px; background: var(--bg); }
+.faq-list summary { padding: 14px 16px; font-weight: 700; color: #fff; cursor: pointer; list-style: none; }
+.faq-list summary::-webkit-details-marker { display: none; }
+.faq-list summary::after { content: "+"; float: right; color: var(--gold); }
+.faq-list details[open] summary::after { content: "−"; }
+.faq-list details p { padding: 0 16px 14px; }
+
 /* Long sections fold to a preview; collapse.js adds the toggle button. */
 .collapsible { position: relative; max-height: 280px; overflow: hidden; }
 .collapsible:not(.open)::after { content: ""; position: absolute; left: 0; right: 0; bottom: 0; height: 90px; background: linear-gradient(rgba(42, 21, 70, 0), var(--bg-2)); pointer-events: none; }
